@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v6.1.2/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/icon.webp" type="image/x-icon">
+    <title>Football Bootstrap</title>
+</head>
+
+<body>
+    <!-- nav bar start  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top" id="nav_scroll">
+        <!-- Navbar content -->
+        <a href="" class="navbar-brand text-body">Football<span class="text-light"> Daily</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-links">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-items">
+                    <a href="#home" class="nav-link text-light px-3 active">Home</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#rankings" class="nav-link text-light px-3">Rankings</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#about" class="nav-link text-light px-3">About</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#todaynews" class="nav-link text-light px-3">News</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#top-players" class="nav-link text-light px-3">Teams</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#contact-us" class="nav-link text-light px-3">Contact us</a>
+            </ul>
+        </div>
+    </nav>
+    <!-- nav bar end  -->
+
+    <!-- carousel start  -->
+    <div id="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/slider1.jpg" class="w-100">
+                    <div class="carousel-caption text-center">
+                        <h1>Welcome To <span>FootBall </span> Daily News</h1>
+                        <h3>Here you get lastest updates</h3>
+                        <a class="btn btn-outline-light btn-lg" href="">Click Here For Updates</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/slider2.jpg" class="w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/slider3.jpg" class="w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <!-- carousel end  -->
+    <!-- Start Team Section  -->
+    <div id="rankings">
+        <div class="col-12 text-center">
+            <h2 class="heading pt-5 pb-4">Rankings <span>Section</span></h2>
+        </div>
+        <div class="row text-center padding pb-5 mx-1">
+            <div class="col-md-4 col-sm-6 col-xs-12 p-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h2 class="text-left">Player#1</h2>
+                        <hr my-3>
+                        <h4>Ronaldo</h4>
+                    </div>
+                    <img class="card-image-top img-fluid" src="images/ronaldo.jpg">
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 p-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h2 class="text-left">Team#1</h2>
+                        <hr my-3>
+                        <h4>Spain</h4>
+                    </div>
+                    <img class="card-image-top img-fluid" src="images/spain.jpg">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 p-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h2 class="text-left">Club#1</h2>
+                        <hr my-3>
+                        <h4>Real Madrid</h4>
+                    </div>
+                    <img class="card-image-top img-fluid" src="images/real-madrid.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card section end -->
+    <!-- two section start  -->
+    <div id="about">
+        <div class="section-two container-fluid p-5">
+            <div class="row">
+                <div class="col-lg-7">
+                    <h2 class="text-center" id="news">About Us</h2>
+                    <ul class="tick navbar-nav">
+                        <hr class="hr-about mb-4">
+                        <p class="first">Our goal is to give you every information
+                            about Football in one website</p>
+                        <hr class="hr-about mb-4">
+                        <p class="second">We are here to give you</p>
+                        <li>
+                            90% authentic transfer news
+                        </li>
+                        <li>
+                            Daliy matches live stream
+                        </li>
+                        <li>
+                            Players Rankings
+                        </li>
+                        <li>
+                            Teams and Club Rankings
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 pl-5 text-center">
+                    <img class="back mt-5" src="/images/about-section.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- two section end -->
+    <!-- news section  -->
+    <section id="todaynews" class="mt-0">
+        <div class="news">
+            <div class="col-12 text-center">
+                <h2 class="heading pt-5 pb-4">Todays <span>News</span></h2>
+            </div>
+            <div class="row padding pb-5 mx-1">
+                <div class="col-lg-4 p-3">
+                    <div class="card text-left">
+                        <div class="card-body">
+                            <h2 class="news-head">Premier League</h2>
+                            <hr my-3>
+                            <h4><a class="news-head-second text-decoration-none"
+                                    href="https://sports.ndtv.com/english-premier-league/premier-league-2022-23-gameweek-1-when-and-where-to-watch-live-telecast-live-streaming-3224156"
+                                    target="_blank">Premier League 2022/23, Gameweek 1: When And Where To Watch Live
+                                    Telecast,
+                                    Live Streaming?</a></h4>
+                        </div>
+                        <img class="img-fluid" src="images/news-1.webp">
+                    </div>
+                </div>
+                <div class="col-lg-4 p-3">
+                    <div class="card text-left">
+                        <div class="card-body">
+                            <h2 class="news-head">Cristiano Ronaldo</h2>
+                            <hr my-3>
+                            <h4><a class="news-head-second text-decoration-none"
+                                    href="https://sports.ndtv.com/english-premier-league/cristiano-ronaldos-early-exit-from-manchester-united-friendly-unacceptable-erik-ten-hag-3221559"
+                                    target="_blank">Cristiano Ronaldo's Early Exit From Manchester United Friendly
+                                    "Unacceptable": Erik Ten Hag</a></< /h4>
+                        </div>
+                        <img class="img-fluid" src="images/news-2.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4 p-3">
+                    <div class="card text-left">
+                        <div class="card-body">
+                            <h2 class="news-head">Womens Euro</h2>
+                            <hr my-3>
+                            <h4><a class="news-head-second text-decoration-none"
+                                    href="https://sports.ndtv.com/football/its-coming-home-singing-england-footballers-gatecrash-press-conference-after-winning-womens-euro-3212271"
+                                    target="_blank">Singing England
+                                    Footballers Gatecrash Press Conference After Winning Women's Euro</a>
+                            </h4>
+                        </div>
+                        <img class="img-fluid" src="images/news-3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- players start  -->
+    <div class="player-section container-fluid py-5" id="top-players">
+        <div class="row text-center">
+            <div class="col-12 text-center">
+                <h2 class="heading pt-4 pb-4">Top <span>Players</span></h2>
+                <hr style="background-color: black;">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
+                <div class="players card text-center">
+                    <img class="player-images rounded-circle px-5 pt-4" src="images/player-1.jpeg" alt="">
+                    <div class="card-body">
+                        <a href="images/player-1.jpeg" target="_blank" class="text-decoration-none"
+                            style="color:white ;">
+                            <h2>Ronaldo</h2>
+                        </a>
+                        <hr style="background-color: white;">
+                        <h4>Man United</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
+                <div class="players card text-center">
+                    <img class="player-images rounded-circle px-5 pt-4" src="images/player-2.jpg" alt="">
+                    <div class="card-body">
+                        <a href="images/player-2.jpg" target="_blank" class="text-decoration-none"
+                            style="color:white ;">
+                            <h2>Messi</h2>
+                        </a>
+                        <hr style="background-color: white;">
+                        <h4>Paris Siant German</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
+                <div class="players card text-center">
+                    <img class="player-images rounded-circle px-5 pt-4" src="images/player-3.jpg" alt="">
+                    <div class="card-body">
+                        <a href="images/player-3.jpg" target="_blank" class="text-decoration-none"
+                            style="color:white ;">
+                            <h2>Neymar Jr.</h2>
+                        </a>
+                        <hr style="background-color: white;">
+                        <h4>Paris Siant German</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
+                <div class="players card text-center">
+                    <img class="player-images rounded-circle px-5 pt-4" src="images/player-4.jpeg" alt="">
+                    <div class="card-body">
+                        <a href="images/player-4.jpeg" target="_blank" class="text-decoration-none"
+                            style="color:white ;">
+                            <h2>Mbappe</h2>
+                        </a>
+                        <hr style="background-color: white;">
+                        <h4>Paris Siant German</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
+                <div class="players card text-center">
+                    <img class="player-images rounded-circle px-5 pt-4" src="images/player-5.jpg" alt="">
+                    <div class="card-body">
+                        <a href="images/player-5.jpg" target="_blank" class="text-decoration-none"
+                            style="color:white ;">
+                            <h2>Benzema</h2>
+                        </a>
+                        <hr style="background-color: white;">
+                        <h4>Real Madrid</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
+                <div class="players card text-center">
+                    <img class="player-images rounded-circle px-5 pt-4" src="images/player-6.jpg" alt="">
+                    <div class="card-body">
+                        <a href="images/player-6.jpg" target="_blank" class="text-decoration-none"
+                            style="color:white ;">
+                            <h2>Haaland</h2>
+                        </a>
+                        <hr style="background-color: white;">
+                        <h4>Man City</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer  -->
+    <div id="contact-us">
+        <footer>
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="ender col-lg-12 text-center mt-4">
+                        <h1 class="footer-head">Football <span class="footer-span">Daily</span></h1>
+                        <p>Hope You Enjoyed Our Services <br> And <br> Visit us Again! </p>
+                        <p class="contact">Contact Info</p>
+                        <p my-4>0334-0661177 <br mt-4>hmmsrashid@gmail.com</p>
+                    </div>
+                    <div class="col-md-12 text-center mb-3">
+                        <hr style="background-color: white;">
+                        &copy; hammas-coding
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div id="back-to-top" class="back-to-top position-fixed text-center">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+
+    <script>
+        window.onscroll = () => {
+            let top = document.getElementById('back-to-top');
+            let pos = document.documentElement.scrollTop;
+            if (pos > 200) {
+                top.style.display = 'block';
+            }
+            else {
+                top.style.display = 'none';
+            }
+            top.addEventListener('click', () => {
+                document.documentElement.scrollTop = 0;
+            });
+        }
+    </script>
+</body>
+
+</html>
